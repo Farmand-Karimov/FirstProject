@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Condensed";
+}
+
+.hero-section {
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  font-family: Raleway;
+}
+.mobile-button{
+    border: medium none;
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+}
+
+.pt-6 {
+  padding-top: 15rem !important;
+}
+.d-flex.justify-content-center input {
+  margin-right: 10px;
+}
+
+.text-orange{
+  color: orange;
+}
+.ing {
+  width: 45%;
+}
+.in{
+  width: 20%;
+}
+.unclear-color{
+  background-color: blanchedalmond;
+}
+.txt{
+  width: 100%;
+  max-width: 600px;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+}
+.size{
+  width: 32px;
+  height: 32px;
+}
+.bg{
+  background-color: rgb(57, 17, 0);
+  color: rgb(57, 17, 0);
+}
+.bgg{
+  background-color: rgb(57, 17, 0);
+  color: rgb(57, 17, 0);
+  width: 40px;
+  height: 40px;
+  margin-left: 3%;
+}
+@media (max-width: 768px) {
+  .ing {
+    width: 100%;
+    margin-bottom: 3%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .in {
+    width: 30%;
+  }
+}
+@media (max-width: 400px) {
+  .in {
+    width: 100%;
+  }
+}
